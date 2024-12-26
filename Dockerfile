@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM azure-cli
 # Install any additional dependencies (if needed)
 RUN apt-get update && apt-get install -y jq
 EXPOSE 80
